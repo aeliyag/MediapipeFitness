@@ -9,6 +9,7 @@ import cv2
 # pip install mediapipe==0.10.14
 #  
 
+
 pose = mp.solutions.pose.Pose(
     static_image_mode           = True, 
     model_complexity          = 1,

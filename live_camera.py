@@ -3,9 +3,16 @@ import mediapipe as mp
 import json
 import os
 
-#From chat 
+# From chat 
 # c -> saves points to a json 
 # q -> exists program 
+
+# open virtual environment (source venv/bin/activate)
+# install opencv and mediapipe 
+# pip install opencv-python
+# pip install mediapipe==0.10.14
+#  
+#Adjust index of webcam if needed
 
 # Initialize MediaPipe Pose
 mp_pose = mp.solutions.pose
