@@ -5,6 +5,15 @@ import json
 #same as live_camera.py but for hands
 #Pose -> Hands
 
+# open virtual environment (source venv/bin/activate)
+# install opencv and mediapipe 
+# pip install opencv-python
+# pip install mediapipe==0.10.14
+#  
+
+#Adjust index of webcam if needed
+
+
 # Initialize MediaPipe Hands
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
