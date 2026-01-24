@@ -44,7 +44,7 @@ pose = mp_pose.Pose(
     min_tracking_confidence=0.5
 )
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 capture_count = 0
 
